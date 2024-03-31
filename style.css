@@ -8,7 +8,7 @@ body {
 }
 
 #hero {
-	height: 100vh;
+	height: 100%;
 	background: rgb(58, 154, 105);
 	background: linear-gradient(276deg, rgba(58, 154, 105, 1) 8%, rgba(11, 81, 107, 1) 63%);
 
@@ -33,7 +33,7 @@ body {
 	background-image: url(pics/virat.jpg);
 	background-size: cover;
 	background-repeat:no-repeat;
-	height:70vh;
+	height:50vh;
 
 	h1 {
 		font-size: 5rem;
@@ -49,7 +49,7 @@ body {
 	}
 
 	p {
-		font-size: 4rem;
+		font-size: 3rem;
 		color: white;
 	}
 
@@ -111,11 +111,19 @@ body {
 		}
 
 		p {
-			font-size: 2rem;
+			font-size: 1.5rem;
 			color: white;
 			margin: 0;
 		}
 
 	}
 
+}
+hr{
+	    margin: 1rem auto;
+    color: #0056dd;
+    width: 80%;
+    border: 0;
+    border-top: var(--bs-border-width) solid;
+    opacity: .25;
 }
