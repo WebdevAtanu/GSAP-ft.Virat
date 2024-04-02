@@ -33,25 +33,28 @@ body {
 	background-image: url(pics/virat.jpg);
 	background-size: cover;
 	background-repeat:no-repeat;
-	height:50vh;
+	height:100%;
 
-	h1 {
+	h2 {
 		font-size: 5rem;
 		color: white;
-	}
-
-	& ul {
-		list-style: none;
-	}
-
-	& li::marker {
-		color: white;
+		font-family: "Londrina Outline", sans-serif;
 	}
 
 	p {
-		font-size: 3rem;
+		font-size: 2rem;
 		color: white;
 	}
+	#ag{
+		transform:translateX(1200px);
+	}
+	#k{
+		transform:translateX(-1200px);
+	}
+	#cp{
+		transform:translateX(1200px);
+	}
+	
 
 }
 
@@ -61,7 +64,9 @@ body {
 	background: #00325763;
 	backdrop-filter: blur(3px);
 }
-
+#scrubbing{
+	overflow:hidden;
+}
 .sec {
 	height: 100%;
 	overflow: hidden;
@@ -105,13 +110,13 @@ body {
 	}
 
 	#outintro {
-		h1 {
-			font-size: 3rem;
+		h2 {
+			font-size: 2rem;
 			color: white;
 		}
 
 		p {
-			font-size: 1.5rem;
+			font-size: 1rem;
 			color: white;
 			margin: 0;
 		}
