@@ -134,7 +134,7 @@ gsap.to(
             trigger: "#scrubbing",
             start: "top 70%", // animation starts when the top touches the 60% of the viewport height
             end: "bottom 10%", // animation ends when the bottom touches the 30% of the viewport height
-            scrub:4,
+            scrub: 4,
             toggleActions: "restart none none none", // play pause resume reverse restart reset complete
             // onEnter onLeave onEnterBack onLeaveBack
         }
@@ -147,7 +147,7 @@ gsap.to(
             trigger: "#scrubbing",
             start: "top 70%", // animation starts when the top touches the 60% of the viewport height
             end: "bottom 10%", // animation ends when the bottom touches the 30% of the viewport height
-            scrub:4,
+            scrub: 4,
             toggleActions: "restart none none none", // play pause resume reverse restart reset complete
             // onEnter onLeave onEnterBack onLeaveBack
         }
@@ -160,7 +160,7 @@ gsap.to(
             trigger: "#scrubbing",
             start: "top 70%", // animation starts when the top touches the 60% of the viewport height
             end: "bottom 10%", // animation ends when the bottom touches the 30% of the viewport height
-            scrub:4, //can use 'true' 
+            scrub: 4, //can use 'true' 
             toggleActions: "play reverse restart reverse", // play pause resume reverse restart reset complete
             // onEnter onLeave onEnterBack onLeaveBack
         }
@@ -171,5 +171,5 @@ gsap.to(
 var typed = new Typed('#quote', {
     strings: ['Self-belief and hard work will always earn you success.', 'I never fear failure, I only fear not trying.', 'Your fear of failure can be your greatest motivator.', 'You have to be fearless and take risks in order to achieve greatness.', 'Passion and hard work can overcome any obstacle.', 'There is always room for improvement, no matter how good you think you are.', 'Success is not just about talent, it is about persistence and determination.', 'Do not let success get to your head, stay humble and grounded.', 'I do not believe in luck, I believe in hard work and preparation.'],
     typeSpeed: 80,
-    loop:true,
+    loop: true,
 });

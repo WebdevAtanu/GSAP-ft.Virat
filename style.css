@@ -32,8 +32,8 @@ body {
 #outintro {
 	background-image: url(pics/virat.jpg);
 	background-size: cover;
-	background-repeat:no-repeat;
-	height:100%;
+	background-repeat: no-repeat;
+	height: 100%;
 
 	h2 {
 		font-size: 5rem;
@@ -45,16 +45,18 @@ body {
 		font-size: 2rem;
 		color: white;
 	}
-	#ag{
-		transform:translateX(1200px);
+
+	#ag {
+		transform: translateX(1200px);
 	}
-	#k{
-		transform:translateX(-1200px);
+
+	#k {
+		transform: translateX(-1200px);
 	}
-	#cp{
-		transform:translateX(1200px);
+
+	#cp {
+		transform: translateX(1200px);
 	}
-	
 
 }
 
@@ -64,9 +66,11 @@ body {
 	background: #00325763;
 	backdrop-filter: blur(3px);
 }
-#scrubbing{
-	overflow:hidden;
+
+#scrubbing {
+	overflow: hidden;
 }
+
 .sec {
 	height: 100%;
 	overflow: hidden;
@@ -124,11 +128,12 @@ body {
 	}
 
 }
-hr{
-	    margin: 1rem auto;
-    color: #0056dd;
-    width: 80%;
-    border: 0;
-    border-top: var(--bs-border-width) solid;
-    opacity: .25;
+
+hr {
+	margin: 1rem auto;
+	color: #0056dd;
+	width: 80%;
+	border: 0;
+	border-top: var(--bs-border-width) solid;
+	opacity: .25;
 }
