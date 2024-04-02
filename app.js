@@ -140,12 +140,12 @@ gsap.to(
     // scrubbing ----------------------------------------------------
 gsap.to(
     "#ag", {
-        x: -1200,
+        x: -600,
         scrollTrigger: {
             trigger: "#scrubbing",
             start: "top 70%", // animation starts when the top touches the 60% of the viewport height
             end: "bottom 10%", // animation ends when the bottom touches the 30% of the viewport height
-            scrub: 2,
+            scrub: true,
             toggleActions: "restart none none none", // play pause resume reverse restart reset complete
             // onEnter onLeave onEnterBack onLeaveBack
         }
@@ -153,12 +153,12 @@ gsap.to(
 )
 gsap.to(
     "#k", {
-        x: 1200,
+        x: 600,
         scrollTrigger: {
             trigger: "#scrubbing",
             start: "top 70%", // animation starts when the top touches the 60% of the viewport height
             end: "bottom 10%", // animation ends when the bottom touches the 30% of the viewport height
-            scrub: 2,
+            scrub: true,
             toggleActions: "restart none none none", // play pause resume reverse restart reset complete
             // onEnter onLeave onEnterBack onLeaveBack
         }
@@ -166,12 +166,12 @@ gsap.to(
 )
 gsap.to(
     "#cp", {
-        x: -1200,
+        x: -600,
         scrollTrigger: {
             trigger: "#scrubbing",
             start: "top 70%", // animation starts when the top touches the 60% of the viewport height
             end: "bottom 10%", // animation ends when the bottom touches the 30% of the viewport height
-            scrub: 2, //can use 'true' 
+            scrub: true, //can use 'true' 
             toggleActions: "play reverse restart reverse", // play pause resume reverse restart reset complete
             // onEnter onLeave onEnterBack onLeaveBack
         }
