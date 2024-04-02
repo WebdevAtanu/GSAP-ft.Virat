@@ -13,18 +13,38 @@ body {
 	background: linear-gradient(276deg, rgba(58, 154, 105, 1) 8%, rgba(11, 81, 107, 1) 63%);
 
 	h1 {
-		font-size: 9.5rem;
+		font-size: 7rem;
 		color: #00e18c;
+		text-align: center;
+		text-shadow: 4px 4px #08080896;
 	}
 
 	p {
 		color: white;
-		font-size: 3rem;
+		font-size: 1rem;
+		text-shadow: 2px 2px #08080896;
+	}
+
+	#introtext {
+		text-align: justify;
 	}
 
 	#name,
-	#des {
+	#des,
+	#vk {
 		opacity: 0;
+	}
+
+	#vk {
+		transform: scale(1.0);
+		filter: grayscale(100%);
+		box-shadow: 5px 5px #08080896;
+		transition: all 0.5s;
+
+		&:hover {
+			filter: grayscale(0%);
+		}
+
 	}
 
 }
@@ -34,6 +54,13 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 100%;
+}
+
+#intro {
+	height: 100%;
+	width: 100%;
+	background: #00325763;
+	backdrop-filter: blur(5px);
 
 	h2 {
 		font-size: 5rem;
@@ -46,29 +73,32 @@ body {
 		color: white;
 	}
 
-	#ag {
-		transform: translateX(1200px);
+	#scrubbing {
+		overflow: hidden;
+
+		#ag {
+			transform: translateX(1200px);
+		}
+
+		#k {
+			transform: translateX(-1200px);
+		}
+
+		#cp {
+			transform: translateX(1200px);
+		}
+
 	}
 
-	#k {
-		transform: translateX(-1200px);
+	#quotes {
+		height: 20vh;
+
+		#quote {
+			font-family: "Tulpen One", sans-serif;
+		}
+
 	}
 
-	#cp {
-		transform: translateX(1200px);
-	}
-
-}
-
-#intro {
-	height: 100%;
-	width: 100%;
-	background: #00325763;
-	backdrop-filter: blur(3px);
-}
-
-#scrubbing {
-	overflow: hidden;
 }
 
 .sec {
@@ -103,12 +133,11 @@ body {
 	#hero {
 		h1 {
 			font-size: 2.5rem;
-			color: #00e18c;
 		}
 
-		p {
-			color: white;
-			font-size: 1.5rem;
+		#vk {
+			width: 100%;
+			height: 100%;
 		}
 
 	}
@@ -131,7 +160,7 @@ body {
 
 hr {
 	margin: 1rem auto;
-	color: #0056dd;
+	color: grey;
 	width: 80%;
 	border: 0;
 	border-top: var(--bs-border-width) solid;
